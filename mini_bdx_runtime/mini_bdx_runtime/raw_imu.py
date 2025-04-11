@@ -157,7 +157,7 @@ class Imu:
 
 
 if __name__ == "__main__":
-    imu = Imu(50, upside_down=False)
+    imu = Imu(50, upside_down=True)
     while True:
         data = imu.get_data()
         # print(data)
